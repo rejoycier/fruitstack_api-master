@@ -1,0 +1,13 @@
+image: maven:3-jdk-11
+maven_build:
+   stage: test
+   tags:
+      - docker
+   script:
+      - echo "Running FruitStack API tests"
+      - mvn clean verify
+   artifacts:
+    when: always
+    paths:
+      - target/site/*
+    expire_in: 1 week
