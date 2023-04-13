@@ -1,4 +1,4 @@
-package fruitstack.cukes;
+package fruitstack.stepdefs;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;

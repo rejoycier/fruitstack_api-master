@@ -1,4 +1,4 @@
-package fruitstack.api.stepdefs;
+package fruitstack.cukes;
 
 
 public class BaseTest {
@@ -8,8 +8,3 @@ public class BaseTest {
 }
 
 
-
-//package starter.navigation;
-
-    //    import net.serenitybdd.core.pages.PageObject;
-     //   import net.thucydides.core.annotations.DefaultUrl;

@@ -82,7 +82,7 @@ src
     + resources
       + features                          Feature files 
           + authentication                
-          + current_fruit   
+          + current_freshfruit   
 
 ```
 

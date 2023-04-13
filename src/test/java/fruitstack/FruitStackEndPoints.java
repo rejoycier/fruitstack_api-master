@@ -1,6 +1,6 @@
 package fruitstack;
 
-import fruitstack.stepdefs.BaseTest;
+import fruitstack.cukes.BaseTest;
 
 public enum FruitStackEndPoints {
     CURRENT(BaseTest.BASE_URI + "/current?access_key={access_key}&query={query}");
